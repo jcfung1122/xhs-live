@@ -97,8 +97,8 @@ ws.column_dimensions['B'].width = 15
 | E | 内容标签 | 女装, 穿搭 |
 | F | 微信 | LLL928113 |
 | G | 手机号 | 13065813130 |
-| H | 邀约日期 | 2026-07-15 |
+| H | 邀约日期 | YYYY-MM-DD |
 | I | 邀约ID | 22064022 |
 | J | 状态 | OK / FAIL:xxx / SKIP |
-| K | 邀约留言 | 您好！我们是... |
+| K | 邀约留言 | {config.json 的 message_template} |
 | L | 备注 | 手动补充 |
