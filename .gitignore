@@ -1,0 +1,40 @@
+# ===== 敏感文件 — 绝不入库 =====
+pgy_cookies.json
+
+# ===== 个人/运行时配置 — 不入库 =====
+workspace/config.json
+workspace/_state.json
+
+# ===== Python =====
+__pycache__/
+*.pyc
+*.pyo
+*.log
+
+# ===== IDE / OS =====
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ===== Workspace 运行时产物 (结构保留, 数据不入库) =====
+workspace/results/search/*.json
+workspace/results/invites/*.json
+workspace/tracking/*.xlsx
+workspace/reports/*.md
+workspace/templates/*.md
+!workspace/templates/invite-message.example.md
+!workspace/results/search/.gitkeep
+!workspace/results/invites/.gitkeep
+!workspace/tracking/.gitkeep
+!workspace/reports/.gitkeep
+
+# ===== 注意: node_modules/crypto-js 与 vendor/py 有意入库 (离线安装) =====
+# node_modules 下除 crypto-js 外不入库
+node_modules/*
+!node_modules/crypto-js/
+node_modules/.package-lock.json
+
+# ===== 测试/临时 =====
+*.bak
+*_probe/
