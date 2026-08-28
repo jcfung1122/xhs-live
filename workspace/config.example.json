@@ -1,0 +1,33 @@
+{
+  "_说明": "复制本文件为 config.json 并填写，或运行 python init_skill.py 交互式生成。config.json 已被 .gitignore 排除，不会提交。",
+  "brand": {
+    "name": "你的品牌名",
+    "category": "你的主营品类(如: 箱包)",
+    "platform_category": "你的品类在蒲公英的类目名(如: 箱包皮具/热销女包/男包)",
+    "price_band": "你的产品价格带(如: 500-2000, 用于品类匹配判断)"
+  },
+  "commission": {
+    "lower": 25,
+    "higher": 35
+  },
+  "filters": {
+    "min_fans": 50000,
+    "min_viewers": 5000,
+    "min_sales": 10000,
+    "min_active_rate": 0.5,
+    "min_order_rate": 0.2,
+    "price_min": 500,
+    "price_max": 5000,
+    "min_gpm": 5000,
+    "price_band_exemption_min": 500,
+    "price_band_exemption_max": 2000
+  },
+  "message_template": "您好！我们是XX品牌，专注XX品类。希望邀请您进行直播合作，纯佣高佣为主，可以微信联系：your_wechat；",
+  "seller": {
+    "seller_id": "",
+    "brand_user_id": "",
+    "contact_name": "",
+    "contact_phone": "",
+    "contact_wechat": ""
+  }
+}
