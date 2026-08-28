@@ -61,7 +61,7 @@ from pgy_live_skill import PgyLiveSkill, CookieExpiredError, quick_invite, get_d
     'name': '达人昵称',
     'fans': 496854,
     'contact': 'wechat:your_wechat_id, phone:13800000000',
-    'date': '2026-06-18',
+    'date': 'YYYY-MM-DD',
     'invite_id': '22064022',
     'status': 'OK'  # OK | FAIL: xxx | SKIP
 }]
