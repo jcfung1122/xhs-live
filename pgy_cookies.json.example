@@ -1,0 +1,16 @@
+{
+  "_comment": "=== 蒲公英 Cookie 配置模板 ===",
+  "_instructions": "1. 复制此文件为 pgy_cookies.json  2. 登录 https://pgy.xiaohongshu.com  3. F12 → Application → Cookies → 将以下 key 对应的 value 填入  4. 至少需要 a1, webId, gid 三个字段",
+  "_获取方式": "也可以从浏览器导出 HAR 文件后用工具提取",
+  "a1": "在此填入a1 cookie值",
+  "webId": "在此填入webId cookie值",
+  "gid": "在此填入gid cookie值",
+  "customerClientId": "",
+  "access-token-pgy.xiaohongshu.com": "",
+  "x-user-id-pgy.xiaohongshu.com": "",
+  "galaxy_creator_session_id": "",
+  "beaker.session.id": "",
+  "websectiga": "",
+  "_seller_id": "",
+  "_brand_user_id": ""
+}
