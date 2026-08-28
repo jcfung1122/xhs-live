@@ -46,7 +46,7 @@
 
 | 字段 | 值（示例） | 说明 |
 |---|---|---|
-| dateKey | 2026-08-27 | 数据日期 |
+| dateKey | YYYY-MM-DD | 数据日期 |
 | noteNumber | 6 | 近 30 天笔记数 |
 | noteType | [{contentTag: 时尚, percent: 50.0}, ...] | 笔记内容类型占比 |
 | tradeNames | [] | 商业合作类目 |
@@ -114,7 +114,7 @@
 | 字段 | 值（示例） | 说明 |
 |---|---|---|
 | num | 250894 | 当日粉丝总数 |
-| dateKey | 2026-07-29 | 日期 |
+| dateKey | YYYY-MM-DD | 日期 |
 
 **用途**：画粉丝增长曲线、判断涨粉/掉粉趋势。
 
@@ -156,7 +156,7 @@
 | 字段 | 值（示例） | 说明 |
 |---|---|---|
 | noteId | 6a747b3c0000000028033ca7 | 笔记ID |
-| publishTime | 2026-08-06 | 发布时间 |
+| publishTime | YYYY-MM-DD | 发布时间 |
 | type | 2 | 笔记类型（2=视频） |
 | imgUrl | http://ci.xiaohongshu.com/... | 封面图 |
 | title | Recently🖤 | 标题 |
