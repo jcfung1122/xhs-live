@@ -117,7 +117,7 @@ class QianFanAPI:
         return response.json()
 
     # ============================================================
-    # 网页端达人详情端点（2026-08 从浏览器抓包发现，kol_detail 系列）
+    # 网页端达人详情端点（从浏览器抓包发现，kol_detail 系列）
     # ============================================================
 
     def get_kol_commerce_transformation(self, kol_id, cookies, date_type=1):
@@ -193,7 +193,7 @@ class QianFanAPI:
         return response.json()
 
     # ============================================================
-    # 看同行（商家详情）：seller-merchants 系列（2026-08 HAR 抓包发现）
+    # 看同行（商家详情）：seller-merchants 系列（从 HAR 抓包发现）
     # referer: /microapp/distribution/seller-det
     # ============================================================
 
